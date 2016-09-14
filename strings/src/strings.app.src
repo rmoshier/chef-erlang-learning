@@ -1,0 +1,11 @@
+{application, strings,
+ [
+  {description, "Common Chef libraries"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
