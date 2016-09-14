@@ -7,6 +7,8 @@
 % fizzbuzz:question(FizzBuzz, is_fb, 3).
 % clear variables in erlang shell: f().
 
+% This program creates fizzbuzz without the use of a gen_server.
+
 start_fizzbuzz() ->
   spawn(?MODULE, fizzbuzz, []).
 
